@@ -36,4 +36,4 @@ local stella_fetch = {
 }
 ```
 
-## ### # ![GameSense Secured Service ](https://cdn.discordapp.com/attachments/1207845251956604988/1210576998288859176/background.png?ex=65eb10af&is=65d89baf&hm=bb2555bd02c799f009cc97f04f0020c9dd2848cc082bf7853545788ae2793c67&)
+![GameSense Secured Service ](https://cdn.discordapp.com/attachments/1207845251956604988/1210576998288859176/background.png?ex=65eb10af&is=65d89baf&hm=bb2555bd02c799f009cc97f04f0020c9dd2848cc082bf7853545788ae2793c67&)
