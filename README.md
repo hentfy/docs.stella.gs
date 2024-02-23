@@ -1,14 +1,39 @@
--- Define a function to fetch data from the Stella API, if available
-local stella_fetch = stella_fetch and stella_fetch() or {username = '', version = '', discord = ''}
+# Stella Loader Documentation
 
--- If stella_fetch is not available, set it to an empty table with default values
--- This ensures that even if the API call fails or isn't implemented, the program won't break
--- The default values include an empty string for username, version, and discord
--- This allows the program to gracefully handle missing or incomplete data
+Welcome to the Stella Loader Documentation! This guide provides comprehensive information and resources for utilizing Stella, the versatile loader tool for your projects.
 
--- Now, let's define the structure of the data fetched from Stella API
+## Installation
+
+To get started with Stella, follow these steps:
+
+1. **Join our Discord Community**: https://discord.gg/zJQjXZGKg7
+2. **Purchase a Subscription**: Visit our sellix to purchase a subscription plan that suits your needs.
+3. **Upload Your Files**: Once subscribed, start uploading your files to our secure cloud storage.
+4. **Publish Your Files**: Easily publish your files from the Stella dashboard.
+
+## Commands
+
+Stella supports the following commands:
+
+- `/register <username> <password>`: Register a new user.
+- `/login <username>`: Log in with your username.
+- `/redeem <code>`: Redeem a subscription code.
+- `/list_scripts`: List available scripts.
+
+## Contributing
+
+**Author : Hencio **
+
+## Example of code : 
+
+```lua
+
+local stella = stella_fetch and stella_fetch() or {username = '', version = '', discord = ''}
 local stella_fetch = {
-    username = '',   -- Placeholder for the username obtained from Stella API
-    version = '',    -- Placeholder for the version information obtained from Stella API
-    discord = ''     -- Placeholder for the Discord handle obtained from Stella API
+    username = ''
+    version = ''
+    discord = ''
 }
+```
+
+image::https://media.discordapp.net/attachments/1207845251956604988/1210576998288859176/background.png?ex=65eb10af&is=65d89baf&hm=bb2555bd02c799f009cc97f04f0020c9dd2848cc082bf7853545788ae2793c67&=&format=webp&quality=lossless&width=1352&height=676[Stella]
