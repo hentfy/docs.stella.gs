@@ -1,39 +1,54 @@
 # Stella Loader Documentation
 
-Welcome to the Stella Loader Documentation! This guide provides comprehensive information and resources for utilizing Stella, the versatile loader tool for your projects.
+Welcome to the Stella Loader Documentation! This comprehensive guide offers everything you need to know about utilizing Stella, the versatile loader tool for your projects.
 
 ## Installation
 
-To get started with Stella, follow these steps:
+Getting started with Stella is simple:
 
-1. **Join our Discord Community**: https://discord.gg/zJQjXZGKg7
-2. **Purchase a Subscription**: Visit our sellix to purchase a subscription plan that suits your needs.
-3. **Upload Your Files**: Once subscribed, start uploading your files to our secure cloud storage.
-4. **Publish Your Files**: Easily publish your files from the Stella dashboard.
+1. **Join Our Discord Community**: Connect with fellow users and stay updated. [Join Now](https://discord.gg/zJQjXZGKg7)
+2. **Purchase a Subscription**: Visit our Sellix page to choose a subscription plan that fits your requirements.
+3. **Upload Your Files**: Once subscribed, securely upload your files to our cloud storage.
+4. **Publish Your Files**: Easily manage and publish your files from the Stella dashboard.
 
 ## Commands
 
-Stella supports the following commands:
+Take full advantage of Stella's capabilities with these commands:
 
-- `/register <username> <password>`: Register a new user.
-- `/login <username>`: Log in with your username.
+- `/register <username> <password>`: Register as a new user.
+- `/login <username>`: Log in using your username.
 - `/redeem <code>`: Redeem a subscription code.
-- `/list_scripts`: List available scripts.
+- `/list_scripts`: Browse available scripts.
 
 ## Contributing
 
-**Author : Hencio **
+**Author: Hencio**
 
-## Example of code : 
+## Code Example
 
 ```lua
-
 local stella = stella_fetch and stella_fetch() or {username = '', version = '', discord = ''}
 local stella_fetch = {
-    username = ''
-    version = ''
+    username = '',
+    version = '',
     discord = ''
 }
 ```
+or
 
-![GameSense Secured Service ](https://cdn.discordapp.com/attachments/1207845251956604988/1210576998288859176/background.png?ex=65eb10af&is=65d89baf&hm=bb2555bd02c799f009cc97f04f0020c9dd2848cc082bf7853545788ae2793c67&)
+```lua
+local connect_api = api_key
+local stella_fetch
+
+if connect_api then
+    stella_fetch = connect_api()
+else
+    stella_fetch = { 
+        username = '', 
+        version = '', 
+        discord = '' 
+    }
+end
+```
+
+![GameSense Secured Service](https://cdn.discordapp.com/attachments/1207845251956604988/1210576998288859176/background.png?ex=65eb10af&is=65d89baf&hm=bb2555bd02c799f009cc97f04f0020c9dd2848cc082bf7853545788ae2793c67&)
