@@ -1,4 +1,4 @@
-```lua
+
 -- @session start
 local connect_api = api_key
 local stella_fetch
@@ -15,7 +15,6 @@ else
 end
 
 print("Welcome back, " .. stella_fetch.username)
-```
 
 ---
 *Last Updated: March 26, 2024*
