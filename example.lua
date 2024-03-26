@@ -1,4 +1,5 @@
---@session start
+```lua
+-- @session start
 local connect_api = api_key
 local stella_fetch
 
@@ -8,9 +9,13 @@ else
     stella_fetch = { 
         username = '', 
         version = '', 
-        discord = '' ,
+        discord = '',
         api = "L41x0a3D6x2aPKFlUa"
     }
 end
 
-print("Welcome back,", username)
+print("Welcome back, " .. stella_fetch.username)
+```
+
+---
+*Last Updated: March 26, 2024*
